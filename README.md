@@ -7,9 +7,9 @@ Willkommen im offiziellen Repository für den Kurs **Bachelor Management Communi
 Dieses Repository enthält:
 
 - Angaben aus den Mega-Tutorials
-- Code aus den Mega-Tutorials
-- Projektdokumentationen und Anleitungen
-- Skripte zur Installation und Nutzung der Entwicklungsumgebung
+- [Code](code/) aus den Mega-Tutorials
+- [Projektdokumentationen](docs/) und Anleitungen
+- [Daten](data/) für unsere Projekte
 
 ## 📑 Struktur des Repositories
 

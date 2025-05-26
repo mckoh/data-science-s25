@@ -1,0 +1,6 @@
+profile_pic,rel_num_numeric_char_username,words_fullname,rel_num_numeric_char_fullname,name=username,description_length,has_external_url,is_private
+no,0.0,1,0.0,yes,0,no,no
+no,0.25,1,0.0,no,0,no,no
+yes,0.19,0,0.0,no,0,no,yes
+no,0.46,1,0.46,yes,0,no,no
+no,0.46,1,0.0,no,0,no,yes

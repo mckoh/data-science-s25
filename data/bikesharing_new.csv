@@ -1,0 +1,8 @@
+season,holiday,weekday,workingday,weathersit,temp,hum,windspeed,month
+spring,no,Sat,no,cloudy,0.344167,0.805833,0.160446,1
+spring,no,Wed,no,cloudy,0.292174,0.298422,0.741739,1
+spring,no,Thu,no,cloudy,0.261667,0.25505,0.538333,1
+spring,no,Fri,no,clear sky,0.1775,0.157833,0.457083,1
+spring,no,Sat,no,clear sky,0.0591304,0.0790696,0.4,1
+spring,no,Sun,no,clear sky,0.0965217,0.0988391,0.436522,1
+spring,no,Mon,no,clear sky,0.0973913,0.11793,0.491739,1

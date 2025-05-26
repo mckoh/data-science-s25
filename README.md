@@ -15,8 +15,8 @@ Dieses Repository enthält:
 
 ```plaintext
 ├── code/               # Code-Dateien zu Vorlesungen & Übungen
-│   ├── im/             # Inhalte für Information Management
-│   ├── ct/             # Inhalte für Communication Technology
+│   ├── im/             # Inhalte für die IM Gruppe
+│   ├── ct/             # Inhalte für die CT Gruppe
 ├── data/               # Datensätze & Ressourcen
 ├── docs/               # Kursdokumentationen
 ├── requirements.txt    # Paketliste für Virtualenv

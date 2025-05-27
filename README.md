@@ -38,7 +38,8 @@ cd <REPO-NAME>
 
 ### 2️⃣ Virtualenv erstellen
 
-````bash
+```bash
+pip install virtualenv # falls erforderlich (muss aber nur einmal gemacht werden)
 virtualenv mlenv
 ```
 

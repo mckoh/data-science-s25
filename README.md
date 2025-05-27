@@ -15,8 +15,8 @@ Dieses Repository enthält:
 
 ```plaintext
 ├── code/               # Code-Dateien zu Vorlesungen & Übungen
-│   ├── im/             # Inhalte für die IM Gruppe
-│   ├── ct/             # Inhalte für die CT Gruppe
+│   ├── im/             # Inhalte für Information Management
+│   ├── ct/             # Inhalte für Communication Technology
 ├── data/               # Datensätze & Ressourcen
 ├── docs/               # Kursdokumentationen
 ├── requirements.txt    # Paketliste für Virtualenv
@@ -31,6 +31,8 @@ Wir verwenden eine **virtuelle Umgebung (virtualenv)** namens `mlenv`. Bitte fol
 
 ### 1️⃣ Klonen des Repositories
 
+Dieser Schritt kann auch mit Hilfe von Github-Desktop erfolgen. Falls ihr das Repo über die Kommandozeile clonen möchtet, könnt ihr das wie folgt machen:
+
 ```bash
 git clone <REPO-URL>
 cd <REPO-NAME>
@@ -38,19 +40,20 @@ cd <REPO-NAME>
 
 ### 2️⃣ Virtualenv erstellen
 
-```bash
-pip install virtualenv # falls erforderlich (muss aber nur einmal gemacht werden)
-virtualenv mlenv
-```
-
-### 2️⃣ Virtualenv aktivieren
+Diesen Schritt müssen wir nur einmal machen. Ab da ist das virtuelle Environmnet verfügbar und muss nur noch aktiviert werden (siehe nächster Schritt).
 
 ```bash
-source mlenv/bin/activate   # macOS / Linux
-mlenv\Scripts\activate      # Windows
+virtualenv <ENV-NAME>
 ```
 
-### 3️⃣ Abhängigkeiten installieren
+### 3️⃣ Virtualenv erstellen & aktivieren
+
+```bash
+source <ENV-NAME>/bin/activate   # macOS / Linux
+<ENV-NAME>\Scripts\activate      # Windows
+```
+
+### 4️⃣ Abhängigkeiten installieren
 
 ```bash
 pip install -r requirements.txt

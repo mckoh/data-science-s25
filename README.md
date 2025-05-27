@@ -36,10 +36,15 @@ git clone <REPO-URL>
 cd <REPO-NAME>
 ```
 
-### 2️⃣ Virtualenv erstellen & aktivieren
+### 2️⃣ Virtualenv erstellen
+
+````bash
+virtualenv mlenv
+```
+
+### 2️⃣ Virtualenv aktivieren
 
 ```bash
-python -m venv mlenv
 source mlenv/bin/activate   # macOS / Linux
 mlenv\Scripts\activate      # Windows
 ```

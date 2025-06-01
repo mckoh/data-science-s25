@@ -19,6 +19,7 @@ Dieses Repository enthält:
 │   ├── ct/             # Inhalte für Communication Technology
 ├── data/               # Datensätze & Ressourcen
 ├── docs/               # Kursdokumentationen
+├── exercises/          # Aufgabenordner
 ├── requirements.txt    # Paketliste für Virtualenv
 ├── README.md           # Diese Datei mit allen Infos
 ├── .gitignore          # Git-Ignore Datei des Repos

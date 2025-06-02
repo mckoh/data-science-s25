@@ -53,6 +53,12 @@ plt.grid(True)
 plt.show()
 ```
 
+## Farben im Plot
+
+Als Farben steht eine breite Palette an Optionen zur Verfügung. Zum einen können Hex-Farben (z.B. `#123456`) verwendet werden. Zum anderen unterstützt `matplotlib` darüber Hinaus eigene Farben:
+
+![Matplotlib Farben Tabelle als Bild](../static/pyplot_colors.webp)
+
 ## Zusammenfassung
 
 Pandas macht das Plotten einfach und intuitiv, insbesondere für schnelle Datenanalysen. Fortgeschrittene Anpassungen können durch direkte Matplotlib-Nutzung erfolgen.

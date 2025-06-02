@@ -8,17 +8,16 @@ Die `DataFrame.plot()`- und `Series.plot()`-Methoden ermöglichen schnelle Visua
 
 ```python
 import pandas as pd
-import matplotlib.pyplot as plt
+from seaborn import heatmap
 
 # Beispiel-Daten
-df = pd.DataFrame({
+data = pd.DataFrame({
     'Jahr': [2020, 2021, 2022, 2023, 2024],
     'Umsatz': [100, 150, 200, 250, 300]
 })
 
 # Linienplot
-df.plot(x='Jahr', y='Umsatz', kind='line', marker='o', title='Umsatzentwicklung')
-plt.show()
+data.plot(x='Jahr', y='Umsatz', kind='line', marker='o', title='Umsatzentwicklung')
 ```
 
 ## Diagrammtypen
@@ -35,8 +34,7 @@ Pandas unterstützt verschiedene Diagrammtypen durch den `kind`-Parameter:
 
 ```python
 # Balkendiagramm
-df.plot(kind='bar', x='Jahr', y='Umsatz', title='Umsatzvergleich')
-plt.show()
+data.plot(kind='bar', x='Jahr', y='Umsatz', title='Umsatzvergleich')
 ```
 
 ## Anpassung der Plots
@@ -46,11 +44,15 @@ plt.show()
 - **Größe & Layout**: `figsize=(width, height)`
 
 ```python
-df.plot(kind='scatter', x='Jahr', y='Umsatz', color='red', title='Streudiagramm')
-plt.xlabel('Jahr')
-plt.ylabel('Umsatz')
-plt.grid(True)
-plt.show()
+data.plot(
+    kind='scatter',
+    x='Jahr',
+    y='Umsatz',
+    color='red',
+    title='Streudiagramm',
+    xlabel='Jahr',
+    ylabel='Umsatz'
+)
 ```
 
 ## Farben im Plot
@@ -58,6 +60,16 @@ plt.show()
 Als Farben steht eine breite Palette an Optionen zur Verfügung. Zum einen können Hex-Farben (z.B. `#123456`) verwendet werden. Zum anderen unterstützt `matplotlib` darüber Hinaus eigene Farben:
 
 ![Matplotlib Farben Tabelle als Bild](../static/pyplot_colors.webp)
+
+Diese Farben können bei konventionellen Plots eingesetzt werden, bei denen Datenpunkte mit einer Farbe eingefärbt werden sollen. Alternativ dazu bietet `pyplot` auch Color-Maps an, die zu Einfärben von Plots genutzt werden können, die mit Farbbereichen arbeiten. Zu diesen Plots gehören die `heatmap` und die `clustermap`, die wir durch Seaborn geladen hatten. Hier ein einblick in gängige Color-Maps:
+
+![Matplotlib Color-Maps als Bild](../static//pyplot_colormaps.webp)
+
+Unterhalb habe ich ein kleines Code-Beispiel eingefügt, das zeigt, wie eine Color-Map in einem Heatmap-Plot eingestellt werden kann:
+
+```python
+heatmap(data.corr(), cmap="Greys")
+```
 
 ## Zusammenfassung
 

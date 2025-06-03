@@ -16,3 +16,11 @@ TODO
 * Führt eine Korrelationsanalyse aller nummerischen Merkmale durch und stellt diese in einem geeigneten Plot dar.
 * Erstellt einen Pairplot aller nummerischen Merkmale im Datenset.
 * Interpretiert eure Darstellungen und Auswertungen aus den oberhalb ausgeführten Punkten schriftlich.
+
+### Unsupervised Learning
+
+TODO
+
+### Supervised Learning
+
+TODO

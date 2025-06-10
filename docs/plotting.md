@@ -8,16 +8,28 @@ Die `DataFrame.plot()`- und `Series.plot()`-Methoden ermöglichen schnelle Visua
 
 ```python
 import pandas as pd
+<<<<<<< HEAD
 from seaborn import heatmap
 
 # Beispiel-Daten
 data = pd.DataFrame({
+=======
+import matplotlib.pyplot as plt
+
+# Beispiel-Daten
+df = pd.DataFrame({
+>>>>>>> ebc4281 (cleaned blank lines)
     'Jahr': [2020, 2021, 2022, 2023, 2024],
     'Umsatz': [100, 150, 200, 250, 300]
 })
 
 # Linienplot
+<<<<<<< HEAD
 data.plot(x='Jahr', y='Umsatz', kind='line', marker='o', title='Umsatzentwicklung')
+=======
+df.plot(x='Jahr', y='Umsatz', kind='line', marker='o', title='Umsatzentwicklung')
+plt.show()
+>>>>>>> ebc4281 (cleaned blank lines)
 ```
 
 ## Diagrammtypen
@@ -34,7 +46,12 @@ Pandas unterstützt verschiedene Diagrammtypen durch den `kind`-Parameter:
 
 ```python
 # Balkendiagramm
+<<<<<<< HEAD
 data.plot(kind='bar', x='Jahr', y='Umsatz', title='Umsatzvergleich')
+=======
+df.plot(kind='bar', x='Jahr', y='Umsatz', title='Umsatzvergleich')
+plt.show()
+>>>>>>> ebc4281 (cleaned blank lines)
 ```
 
 ## Anpassung der Plots
@@ -44,6 +61,7 @@ data.plot(kind='bar', x='Jahr', y='Umsatz', title='Umsatzvergleich')
 - **Größe & Layout**: `figsize=(width, height)`
 
 ```python
+<<<<<<< HEAD
 data.plot(
     kind='scatter',
     x='Jahr',
@@ -53,6 +71,13 @@ data.plot(
     xlabel='Jahr',
     ylabel='Umsatz'
 )
+=======
+df.plot(kind='scatter', x='Jahr', y='Umsatz', color='red', title='Streudiagramm')
+plt.xlabel('Jahr')
+plt.ylabel('Umsatz')
+plt.grid(True)
+plt.show()
+>>>>>>> ebc4281 (cleaned blank lines)
 ```
 
 ## Farben im Plot
@@ -61,6 +86,7 @@ Als Farben steht eine breite Palette an Optionen zur Verfügung. Zum einen könn
 
 ![Matplotlib Farben Tabelle als Bild](../static/pyplot_colors.webp)
 
+<<<<<<< HEAD
 Diese Farben können bei konventionellen Plots eingesetzt werden, bei denen Datenpunkte mit einer Farbe eingefärbt werden sollen. Alternativ dazu bietet `pyplot` auch Color-Maps an, die zu Einfärben von Plots genutzt werden können, die mit Farbbereichen arbeiten. Zu diesen Plots gehören die `heatmap` und die `clustermap`, die wir durch Seaborn geladen hatten. Hier ein einblick in gängige Color-Maps:
 
 ![Matplotlib Color-Maps als Bild](../static//pyplot_colormaps.webp)
@@ -71,6 +97,8 @@ Unterhalb habe ich ein kleines Code-Beispiel eingefügt, das zeigt, wie eine Col
 heatmap(data.corr(), cmap="Greys")
 ```
 
+=======
+>>>>>>> ebc4281 (cleaned blank lines)
 ## Zusammenfassung
 
 Pandas macht das Plotten einfach und intuitiv, insbesondere für schnelle Datenanalysen. Fortgeschrittene Anpassungen können durch direkte Matplotlib-Nutzung erfolgen.

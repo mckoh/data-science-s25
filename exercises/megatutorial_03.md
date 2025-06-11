@@ -1,4 +1,4 @@
-# Megatutorial 1: Explorative Datenanalyse
+# Megatutorial 3: Explorative Datenanalyse
 
 In diesem Megatutorial wollen wir uns die Daten nun aber aus Sicht des klassischen Machine Learning anschauen. Wir verwenden dazu wieder unsern Fake-Profile-Datensatz. Dieser Datensatz enthält bereits eine Target-Variable (`is_fake`) und kann deshalb zur Modellentwicklung verwendet werden.
 

@@ -1,6 +1,6 @@
 # Angabe Gruppenprojekte
 
-Dieses Projekt kann in Gruppen von 2 bis 4 Personen bearbeitet werden. Die Abgabe der Projektarbeit erfolgt via Sakai (siehe Sakai bzgl. Deadline). Ihr könnt dort direkt einen Export eures Jupyter-Notebooks abgeben. Alternativ kann auch ein Link zum Github-Repo, in dem ihr gearbeitet habt, abgegeben werden. In diesem Fall muss aber sichergestellt sein, dass das Repo **öffentlich zugänglich** ist.
+Dieses Projekt kann in Gruppen von 2 bis 3 Personen bearbeitet werden. Die Abgabe der Projektarbeit erfolgt via Sakai (siehe Sakai bzgl. Deadline). Ihr könnt dort direkt einen Export eures Jupyter-Notebooks abgeben. Alternativ kann auch ein Link zum Github-Repo, in dem ihr gearbeitet habt, abgegeben werden. In diesem Fall muss aber sichergestellt sein, dass das Repo **öffentlich zugänglich** ist.
 
 ## Szenario
 

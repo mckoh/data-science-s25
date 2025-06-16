@@ -1,4 +1,4 @@
-# Megatutorial 1: Explorative Datenanalyse
+# Megatutorial 2: Explorative Datenanalyse
 
 In diesem Megatutorial beschäftigen wir uns noch etwas eingehender mit der Exploration unserer Daten. Heute wollen wir dazu aber bereits Machine-Learning-Techniken verwenden. Wie ihr bereits aus der VO wisst, gehört auch das unsupervised Learning zu den Techniken der deskriptiven Datenanalyse. Warum? Weil wir für diese Techniken kein Target benötigen, sondern die Daten einfach für sich sprechen lassen können - also eben deskriptiv arbeiten.
 

@@ -1,6 +1,6 @@
 # Angabe Gruppenprojekte
 
-Dieses Projekt kann in Gruppen von 2 bis 4 Personen bearbeitet werden. Die Abgabe der Projektarbeit erfolgt via Sakai (siehe Sakai bzgl. Deadline).
+Dieses Projekt kann in Gruppen von 2 bis 4 Personen bearbeitet werden. Die Abgabe der Projektarbeit erfolgt via Sakai (siehe Sakai bzgl. Deadline). Ihr könnt dort direkt einen Export eures Jupyter-Notebooks abgeben. Alternativ kann auch ein Link zum Github-Repo, in dem ihr gearbeitet habt, abgegeben werden. In diesem Fall muss aber sichergestellt sein, dass das Repo **öffentlich zugänglich** ist.
 
 ## Szenario
 
@@ -32,6 +32,7 @@ Wir wurden vom botanischen Garten in Innsbruck damit beauftragt, ein Klassifikat
 
 ### Supervised Learning
 
-* Vorbereiten
-* Algorithmen anwenden
-* Interpretiert eure Clusteringergebnisse.
+* Bereitet die Daten für's Machine Learning vor (`X`/`y`, `train`/`test`).
+* Trainiert zwei unterschiedliche Machine Learning Modelle unter Zuhilfenahme passender `scikit-learn` Algorithmen.
+* Evaluiert eure Modelle mit geeigneten Metriken. Verwendet dazu zumindest 3 unterschiedliche Metriken.
+* Interpretiert eure Ergebnisse.

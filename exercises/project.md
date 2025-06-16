@@ -26,8 +26,12 @@ Wir wurden vom botanischen Garten in Innsbruck damit beauftragt, ein Klassifikat
 
 ### Unsupervised Learning
 
-TODO
+* Erstellt mit Hilfe von `scipy` ein Dendrogram der gegebenen Daten. Verwendet dazu die Merkmale `sepal_length_cm`, `sepal_width_cm`, `petal_length_cm` und `petal_width_cm`. Ermittelt daraus eine Schätzung für die Clusterzahl.
+* Führt eine Clusteranalyse mit den Merkmalen `sepal_length_cm`, `sepal_width_cm`, `petal_length_cm` und `petal_width_cm` durch. Verwendet dazu zwei geeignete Clusteralgorithmen aus `scikit-learn`.
+* Interpretiert eure Clusteringergebnisse.
 
 ### Supervised Learning
 
-TODO
+* Vorbereiten
+* Algorithmen anwenden
+* Interpretiert eure Clusteringergebnisse.
